@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/wkielas/GIT_REPOS/salt/states/files/root_files/fw2b.cto.blue.pl/etc'
-let g:netrw_dirhist_2='/Users/wkielas/GIT_REPOS/salt/states/files/root_files/fw1a.waw.blue.pl/etc'
-let g:netrw_dirhist_3='/Users/wkielas/GIT_REPOS/salt/states/files/pf_openbsd/fw2a.cto.blue.pl'
-let g:netrw_dirhist_4='/Users/wkielas/GIT_REPOS/salt/states/files/dhcp'
-let g:netrw_dirhist_5='/Users/wkielas/GIT_REPOS/salt/states/files/root_files/fw2b.cto.blue.pl/etc'
-let g:netrw_dirhist_6='/Users/wkielas/.offlineimap'
