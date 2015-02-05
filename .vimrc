@@ -29,7 +29,6 @@ Plugin 'snipMate'
 Plugin 'surround.vim'
 Plugin 'taglist.vim'
 Plugin 'xolox/vim-misc'
-Plugin 'xolox/vim-notes'
 
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
@@ -92,8 +91,6 @@ set undolevels=1000 "maximum number of changes that can be undone
 set undoreload=10000 "maximum number lines to save for undo on a buffer reload
 
 set guiheadroom=0
-let g:notes_directories = ['~/HG_REPOS/Vimnotes/']
-let g:notes_suffix = '.txt'
 
 inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
