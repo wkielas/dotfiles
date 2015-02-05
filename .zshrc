@@ -35,7 +35,7 @@ function compact_pwd {
   pwd | perl -pe 's/$ENV{HOME}/~/;s/([^\/])[^\/]+\//$1\//g;s/\n//'
 }
 
-source /etc/profile.d/99-iotkit.sh
+source /etc/profile.d/iotkit.sh
 
 if [[ `whoami` == "root" ]]
 then
@@ -57,5 +57,6 @@ export LC_CTYPE="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US.UTF-8"
 export PERL_BADLANG=0
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 bindkey '^R' history-incremental-search-backward
